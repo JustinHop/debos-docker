@@ -1,7 +1,8 @@
 #!/bin/bash
 
-USERNAME="jbbgameich"
+USERNAME="jhoppensteadt"
 IMAGE="debos-docker"
+DATE=$(date +%F)
 
 if [ $# -ne 1 ]; then
     echo "Usage:"

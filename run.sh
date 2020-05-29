@@ -5,5 +5,5 @@ docker run --rm -it \
     --device /dev/kvm \
     --group-add=$(getent group kvm | cut -d : -f 3) \
     -v ${PWD}:/root \
-    jbbgameich/debos-docker \
+    jhoppensteadt/debos-docker \
     /bin/bash -c "debos $*"

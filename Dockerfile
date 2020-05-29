@@ -38,6 +38,7 @@ RUN apt-get update && \
     parted \
     dosfstools \
     e2fsprogs \
+    f2fs-tools \
     bmap-tools \
     # fakemachine runtime dependencies
     qemu-system-x86 \
